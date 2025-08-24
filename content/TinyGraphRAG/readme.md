@@ -398,14 +398,14 @@ The relationship in the triple should accurately reflect the interaction or conn
 1. Article :
     "Gaussian Processes are used to model the objective function in Bayesian Optimization"
    Given entities:
-   [{{"name": "Gaussian Processes", "entity id": "entity-1"}}, {{"name": "Bayesian Optimization", "entity id": "entity-2"}}]
+   [{{"name": "Gaussian Processes", "entity id": "entity-1", "description":"..."}}, {{"name": "Bayesian Optimization", "entity id": "entity-2", "description":"..."}}]
    Output:
    <triplet><subject>Gaussian Processes</subject><subject_id>entity-1</subject_id><predicate>are used to model the objective function in</predicate><object>Bayesian Optimization</object><object_id>entity-2</object_id></triplet>
 
 2. Article :
     "Hydrogen is a colorless, odorless, non-toxic gas and is the lightest and most abundant element in the universe. Oxygen is a gas that supports combustion and is widely present in the Earth's atmosphere. Water is a compound made up of hydrogen and oxygen, with the chemical formula H2O."
     Given entities:
-    [{{"name": "Hydrogen", "entity id": "entity-3"}}, {{"name": "Oxygen", "entity id": "entity-4"}}, {{"name": "Water", "entity id": "entity-5"}}]
+    [{{"name": "Hydrogen", "entity id": "entity-3", "description":"..."}}, {{"name": "Oxygen", "entity id": "entity-4", "description":"..."}}, {{"name": "Water", "entity id": "entity-5", "description":"..."}}]
     Output:
     <triplet><subject>Hydrogen</subject><subject_id>entity-3</subject_id><predicate>is a component of</predicate><object>Water</object><object_id>entity-5</object_id></triplet>
 3. Article :
